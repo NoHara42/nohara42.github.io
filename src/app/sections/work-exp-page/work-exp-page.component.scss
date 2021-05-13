@@ -1,0 +1,62 @@
+#work-experience-page {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background: radial-gradient(at 50% 0%, white, lightgrey);
+
+
+  ng-vertical-timeline {
+    display: block;
+    width: 100%;
+
+    .head {
+      background-color: #013535 !important;
+      span {
+        font-family: "Maven Pro", sans-serif;
+        font-size: 15px;
+        font-weight: 300;
+        text-transform: none;
+      }
+
+      .icon {
+        height: 30px;
+        width: 30px;
+        img {
+          border-radius: 50%;
+        }
+      }
+    }
+
+    .title {
+      font-family: "Maven Pro", sans-serif;
+      font-size: 15px;
+      font-weight: 500;
+      text-transform: none;
+    }
+
+    .body {
+      padding: 10px;
+
+      p {
+        font-family: "Maven Pro", sans-serif;
+        font-size: 15px;
+
+        text-align: left;
+      }
+    }
+
+    .container.left::after {
+      border: 4px solid #013535;
+      background: linear-gradient(-45deg, #e98567, #e73c7e, #23a6d5, #17db9a);
+    }
+
+    .container.left::before {
+      border-color: transparent #013535;
+      border-radius: 50%;
+    }
+    .timeline::after {
+      border-radius: 50%;
+      background-color: #013535;
+    }
+  }
+
+}

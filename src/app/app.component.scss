@@ -1,0 +1,175 @@
+.timeline-element {
+  color: black;
+  fill: black;
+}
+
+.date-text {
+  color: #013535;
+  font-size: 20px;
+}
+
+.back-to-top-text {
+  font-family: "Maven Pro";
+  color: lightgrey;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.back-to-top {
+  background-color: #013535;
+  display: flex;
+  justify-content: center;
+}
+
+/* The line */
+.vertical-timeline::before {
+  background: #013535 !important;
+  opacity: 0.4;
+  border-radius: 50%;
+}
+
+/* Icon container's border */
+.vertical-timeline-element-icon {
+  box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08),
+    0 3px 0 4px rgba(0, 0, 0, 0.05);
+}
+
+.vertical-timeline-element {
+  font-family: "Maven Pro";
+}
+
+.vertical-timeline--two-columns .vertical-timeline-element-icon .flag-size {
+  width: 40px;
+  height: 40px;
+}
+
+.showcase-container {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  margin: 100px 50px 100px 50px;
+  width: 75vw;
+}
+
+.showcase-gallery {
+  height: auto;
+  box-shadow: 5px 7px 5px #aaaaaa;
+  background: white;
+  overflow: hidden;
+}
+
+.showcase-gallery-collection {
+  display: flex;
+  max-width: 40vw;
+  box-shadow: 5px 7px 5px #aaaaaa;
+  background: white;
+}
+
+.showcase-page {
+  max-width: 70%;
+  height: auto;
+}
+
+#showcase-page-1 {
+  background: radial-gradient(at 50% 0%, white, lightgrey);
+}
+
+#showcase-page-2 {
+  background: radial-gradient(at 50% 100%, white, lightgrey);
+
+}
+
+#showcase-page-3 {
+  background: radial-gradient(at 50% 0%, white, lightgrey);
+
+}
+
+#showcase-page-4 {
+  background: radial-gradient(at 50% 100%, white, lightgrey);
+
+}
+
+.showcase-graphs {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  max-width: 100%;
+  flex-direction: column;
+}
+
+.showcase-linechart {
+  width: 100%;
+  max-height: 100%;
+}
+
+.showcase-whitespace {
+  background: white;
+  height: 100%;
+  width: 100%;
+}
+
+.showcase-piechart {
+  width: 100%;
+  max-height: 100%;
+}
+
+.showcase-piechart2 {
+  width: 100%;
+  max-height: 100%;
+}
+
+.showcase-link {
+  font-family: "Maven Pro";
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.showcase-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: 20px;
+  margin-left: 50px;
+}
+
+.showcase-title {
+  font-family: "Maven Pro";
+  font-size: 40px;
+  text-align: left;
+  font-weight: 600;
+  justify-self: flex-start;
+  margin-bottom: 50px;
+}
+
+.showcase-description {
+  font-family: "Maven Pro";
+  text-align: left;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.stopping-cue-gif {
+  width: 200%;
+  max-height: auto;
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1170px) {
+}
+
+@media only screen and (max-width: 1169px) {
+
+}
+@media only screen and (max-width: 812px) {
+  .showcase-container {
+    flex-direction: column;
+  }
+
+  .showcase-gallery {
+    height: 50vh;
+    width: auto;
+  }
+}

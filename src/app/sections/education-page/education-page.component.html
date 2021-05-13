@@ -1,0 +1,6 @@
+<section id="education-page" (deferLoad)="beingRendered()">
+  <ng-container *ngIf="isBeingRendered">
+    <h2 class="animate__animated animate__fadeInUp titles">Education:</h2>
+    <ng-vertical-timeline [data]="events"></ng-vertical-timeline>
+  </ng-container>
+</section>

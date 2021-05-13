@@ -1,0 +1,6 @@
+<section id="work-experience-page" (deferLoad)="beingRendered()">
+  <ng-container *ngIf="isBeingRendered">
+    <h2 class="animate__animated animate__fadeInUp titles">Work Experience:</h2>
+    <ng-vertical-timeline [data]="events"></ng-vertical-timeline>
+  </ng-container>
+</section>

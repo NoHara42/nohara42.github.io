@@ -70,3 +70,22 @@ a {
     margin-right: 50px;
   }
 }
+
+@media only screen and (max-width: 414px) {
+  .contact-title {
+    font-size: 6vw;
+    margin-right: 25px;
+  }
+
+  .contact-text {
+    font-size: 5vw;
+  }
+  .contact-icon {
+    width: 5vw;
+  }
+
+  .contents-title {
+    margin-right: 50px;
+  }
+
+}
